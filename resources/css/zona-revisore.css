@@ -15,8 +15,18 @@
 }
 
 .carousel-control-prev , .carousel-control-next{
-    transform: translateY(-25%);
+    transform: translateY(-18%);
 }
+
+/* Creo una classe per fare modifiche mirate alla show nella index generica */
+.show-index .carousel-control-next {
+    transform: translateY(0);
+}
+
+.show-index .carousel-control-prev {
+    transform: translateY(0);
+}
+/* fine */
 
 .btn-rifiuta {
     text-align: center;

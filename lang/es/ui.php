@@ -49,7 +49,7 @@ return [
 
     // revisor
     'BecomeRevisor' => '¿QUIERES CONVERTIRTE EN REVISOR?',
-    'coverLetter' => 'envíanos tu carta de presentación',
+    'coverLetter' => 'Envíanos tu carta de presentación',
     'response' => 'nos pondremos en contacto con usted tan pronto como sea posible',
     'send' => 'Enviar',
     'annuncio-revisore' => 'Anuncio para ser revisado',

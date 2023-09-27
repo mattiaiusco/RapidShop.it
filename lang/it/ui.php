@@ -49,7 +49,7 @@ return [
 
     // revisor
     'BecomeRevisor' => 'VUOI DIVENTARE REVISORE?',
-    'coverLetter' => 'inviaci la tua cover letter',
+    'coverLetter' => 'Inviaci la tua cover letter',
     'response' => 'ti contatteremo il prima possibile',
     'send' => 'Invia',
     'annuncio-revisore' => 'Annuncio da revisionare',

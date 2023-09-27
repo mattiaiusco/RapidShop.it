@@ -10,7 +10,7 @@
             <!-- <div class="col-12 col-md-6">
                 <img src="./media/header-background.png" class="img-fluid" alt="Illustrazione header">
             </div> -->
-            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mb-4 sf-ice py-4 px-3 rounded-5 bordo-header">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6 mb-4 sf-ice py-5 rounded-5 bordo-header">
                 <h1 class="text-center">{{__('ui.headerTitle')}}</h1>
                 <h2 class="text-center subtitle-header" id="searchBarHeader">{{__('ui.headerSub')}}
                     <span>
