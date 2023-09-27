@@ -1,0 +1,54 @@
+.header-bg {
+  background: linear-gradient(rgba(229, 235, 234, 0.7) , rgba(229, 235, 234, 0.7) ) , url('/public/media/sfondo_header_doodle.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.bordo-header {
+  
+  box-shadow: 8px 8px 15px rgb(99, 99, 99);
+}
+
+.subtitle-header{
+font-family: "PPFragment-SerifRegular";
+
+}
+
+.search {
+    display: inline-block;
+    position: relative;
+  }
+
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .search button[type="submit"] {
+    background-color: var(--colorPrimary);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: var(--colorPrimary);
+  }
+
+  .success-message{
+    top: 100px;
+  }

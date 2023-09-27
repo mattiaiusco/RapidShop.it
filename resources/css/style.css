@@ -1,0 +1,69 @@
+:root{
+    --colorPrimary : #13c1ac;
+    --colorSecondary : rgb(255, 164, 36);
+    --colorIce : #e5ebea;
+}
+
+@font-face {
+    font-family: "PPFragment-SerifExtraBold";
+    src: url('/public/fonts/PPFragment-SerifExtraBold.ttf');
+}
+@font-face {
+    font-family: "PPFragment-SerifRegular";
+    src: url("/public/fonts/PPFragment-SerifRegular.ttf");
+}
+@font-face {
+    font-family: "PPMori-Regular";
+    src: url("/public/fonts/PPMori-Regular.ttf");
+}
+@font-face {
+    font-family: "PPMori-SemiBold";
+    src: url("/public/fonts/PPMori-SemiBold.ttf");
+}
+
+
+body{
+    background-color: var(--colorIce);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "PPFragment-SerifExtraBold";
+}
+
+p, a, button {
+    font-family: "PPMori-Regular";
+}
+
+.slot{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.layout-welcome{
+    margin-bottom: 200px
+}
+
+.font-titoli {
+    font-family: "PPFragment-SerifExtraBold";
+}
+
+.tx-primary{
+    color: var(--colorPrimary);
+}
+.tx-secondary{
+    color: var(--colorSecondary);
+}
+.tx-ice{
+    color: var(--colorIce);
+}
+
+.sf-primary{
+    background-color: var(--colorPrimary);
+}
+.sf-secondary{
+    background-color: var(--colorSecondary);
+}
+
+.sf-ice{
+    background-color: var(--colorIce);
+}

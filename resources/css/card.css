@@ -1,0 +1,10 @@
+.card-custom {
+    transition: 0.8s ease;
+}
+
+/*Hover*/
+.card-custom:hover {
+    transform: scale(1.1);
+    transition: 0.8s ease;
+    box-shadow: rgba(87, 87, 87, 0.25) 0px 13px 47px -5px, rgba(87, 87, 87, 0.3) 0px 8px 16px -8px;
+}   

@@ -1,0 +1,9 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './register.css';
+@import './style.css';
+@import './navbar.css';
+@import './header.css';
+@import './card.css';
+@import './zona-revisore.css';
+@import './footer.css';
+@import './add-product.css';

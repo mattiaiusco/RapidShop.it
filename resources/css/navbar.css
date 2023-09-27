@@ -1,0 +1,121 @@
+.navbar {
+    background-color: var(--colorIce) !important;
+    border-bottom: 2px solid var(--colorPrimary);
+}
+
+/* button registrazione */
+
+.btn-registrazione {
+    text-align: center;
+    border: 2px solid var(--colorPrimary);
+    border-radius: 25px;
+    padding: 0.5rem 0.8rem;
+    transition: all ease-in-out 0.2s;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorPrimary);
+    font-weight: 600;
+    width: 120px;
+}
+
+.btn-registrazione:hover {
+    background-color: var(--colorPrimary);
+    color: var(--colorIce);
+}
+
+/* button login */
+.btn-login {
+    text-align: center;
+    background-color: var(--colorPrimary);
+    border: 2px solid var(--colorPrimary);
+    border-radius: 25px;
+    padding: 0.5rem 0.8rem;
+    transition: all ease-in-out 0.2s;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorIce);
+    font-weight: 600;
+    width: 120px;
+}
+
+.btn-login:hover {
+    background-color: rgb(15, 151, 135);
+    border: 2px solid rgb(15, 151, 135);
+    color: var(--colorIce);
+}
+
+.logout-link:hover{
+    color: var(--colorSecondary);
+}
+
+.dropdown-menu{
+    background-color: var(--colorIce) !important;
+}
+
+.dropdown-item:hover{
+    background-color: var(--colorPrimary) !important;
+    color: var(--colorIce) !important;
+}
+
+/* button aggiungi prodotto */
+.btn-aggiungi-prodotto {
+    text-align: center;
+    border: 2px solid var(--colorPrimary);
+    border-radius: 25px;
+    padding: 0.5rem 0.8rem;
+    transition: all ease-in-out 0.2s;
+    font-size: 15px;
+
+    color: var(--colorPrimary);
+    font-weight: 600;
+    /* width: 120px; */
+}
+
+.btn-aggiungi-prodotto:hover {
+    background-color: var(--colorPrimary);
+    color: var(--colorIce);
+}
+
+/* dropdown custom */
+.dropdown-custom {
+    box-shadow: 5px 5px 15px rgba(17, 175, 157, 0.5);
+}
+
+#searchBarHeader{
+    margin-bottom: 34px;
+}
+
+
+/* Media queries */
+@media(max-width:767px) {
+    .logotipo {
+        display: none;
+    }
+    .logo-container{
+        height: 150%;
+        width: 150%;
+    }
+    .logo {
+        height: 100%;
+    }
+    .dropdown-item{
+        font-size: smaller;
+    }
+
+}
+
+@media(max-width:1290px){
+    .logotipo {
+    display: none;
+}
+}
+
+@media(max-width:990px){
+    .navbar-nav {
+        margin-top: 30px;
+}
+}
