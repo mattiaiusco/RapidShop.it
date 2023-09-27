@@ -5,7 +5,7 @@ inutili decorazioni, ciò a cui l’utente deve davvero porre l’attenzione.
 EN - RapidShop is an e-commerce inspired by Subito, Wallapop and Vinted. The focus of the design was minimal design, therefore the search for a UX that was clear and fluid. This trend led us to develop a clean and simple UI with few colors and white spaces in order not to pollute, with
 useless decorations, what the user really needs to pay attention to.
 
-## FUNZIONALITÀ CHIAVE
+## FUNZIONALITÀ CHIAVE/KEY FUNCTIONALITY
 IT
 - Registrazione di utenti e differenziazione tra tipo di utente (revisore o standard)
 - Revisione degli articoli prima della pubblicazione
